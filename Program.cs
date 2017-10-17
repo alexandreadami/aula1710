@@ -31,6 +31,12 @@ namespace aula1710
                 Console.WriteLine(tabuada + " x " + i + " = " + resultado);
             }
 
+            string[] alunos = {"alexandre", "jose", "anderson"};
+            for (int i = 0; i < alunos.Length; i++)
+            {
+                Console.WriteLine("Nome: " + alunos[i]);
+            }
+
             
         }
     }
