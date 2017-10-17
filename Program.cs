@@ -43,6 +43,24 @@ namespace aula1710
                     Console.WriteLine(teste[i]);
                 }
 
+            string[,] dados = {
+                {"nome", "idade"},
+                {"alexandre","45"},
+                {"jose","77"}
+                
+                };
+
+                for(int l = 0; l <= 2; l++){
+                    for(int c = 0; c <= 1; c++){
+                        Console.WriteLine("Dados: " + dados[l,c]);
+                }
+
+
+            }
+            //Console.WriteLine("posição 1 coluna 1 " + dados[1,1]);
+
+            Console.ReadKey();
+            
             
         }
     }
